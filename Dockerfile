@@ -1,3 +1,4 @@
-FROM neo4j:4.0
+FROM neo4j:4.0-enterprise
 
 ENV NEO4J_AUTH=neo4j/root
+ENV NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
